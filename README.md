@@ -29,3 +29,15 @@ My dev environment
 - Cli interpreter will now show you `php8:some version of php`
 - Click `Apply` then `OK`
 - You are now ready to go.
+
+### PHPStorm code quality tools
+
+- Go to Settings
+- Click On `>` near PHP
+- Click on Quality tools
+- Click On **PHP_CodeSniffer**
+- Select Configuration to your `php8` interpreter
+- Repeat with **PHPStan**
+- Click `Apply` then `OK`
+
+For code quailty tools you will need to add those tools to `compsoer.json` file
